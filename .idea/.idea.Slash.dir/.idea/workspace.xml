@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45c56a64-a94b-4dfe-84e6-39bb67b033d7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cHVUO2vhez3uxQcZyjdzeKbk9k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/evagelosmitsianis/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/evagelosmitsianis/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/evagelosmitsianis/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Slash" type="Uproject" factoryName="rider.uproject">
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Slash.uproject" />
+      <configuration_2>
+        <option name="CONFIGURATION" value="DebugGame Editor" />
+        <option name="PLATFORM" value="Mac" />
+        <option name="EXECUTABLE_PATH" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame" />
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;$PROJECT_DIR$/Slash.uproject&quot;" />
+        <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="DebugGame" />
+        <option name="PLATFORM" value="Mac" />
+        <option name="EXECUTABLE_PATH" value="$PROJECT_DIR$/Binaries/Mac/Slash-Mac-DebugGame.app/Contents/MacOS/Slash-Mac-DebugGame" />
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
+        <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Development Editor" />
+        <option name="PLATFORM" value="Mac" />
+        <option name="EXECUTABLE_PATH" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor" />
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;$PROJECT_DIR$/Slash.uproject&quot;" />
+        <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
+      </configuration_4>
+      <configuration_5>
+        <option name="CONFIGURATION" value="Development" />
+        <option name="PLATFORM" value="Mac" />
+        <option name="EXECUTABLE_PATH" value="$PROJECT_DIR$/Binaries/Mac/Slash.app/Contents/MacOS/Slash" />
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
+        <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
+      </configuration_5>
+      <configuration_6>
+        <option name="CONFIGURATION" value="Shipping" />
+        <option name="PLATFORM" value="Mac" />
+        <option name="EXECUTABLE_PATH" value="$PROJECT_DIR$/Binaries/Mac/Slash-Mac-Shipping.app/Contents/MacOS/Slash-Mac-Shipping" />
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Shared/Epic Games/UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
+        <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
+      </configuration_6>
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45c56a64-a94b-4dfe-84e6-39bb67b033d7" name="Changes" comment="" />
+      <created>1707768506381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707768506381</updated>
+      <workItem from="1707768507415" duration="425000" />
+      <workItem from="1707768940686" duration="15000" />
+      <workItem from="1707769426285" duration="63000" />
+      <workItem from="1707769534146" duration="5000" />
+      <workItem from="1707769541829" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
