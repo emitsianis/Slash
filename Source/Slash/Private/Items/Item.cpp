@@ -2,26 +2,28 @@
 
 
 #include "Items/Item.h"
+#include "Slash/DebugMacros.h"
 
 // Sets default values
-AItem::AItem()
+AItem::AItem()  
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
 void AItem::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	const FVector Forward = GetActorForwardVector();
+	const FVector StartLocation = GetActorLocation();
+	const FVector EndLocation = StartLocation + FVector(Forward.X * 100.0, Forward.Y * 100.0, Forward.Z * 100.0);
+
+	DRAW_SPHERE(StartLocation);
+	DRAW_VECTOR(StartLocation, EndLocation);
 }
 
-// Called every frame
 void AItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
-
