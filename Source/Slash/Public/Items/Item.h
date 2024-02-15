@@ -17,4 +17,31 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sine Parameters")
+	float Amplitude = 0.25f;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sine Parameters")
+	float TimeConstant = 5.f;
+ 
+	UFUNCTION(BlueprintPure)
+	float TransformedSine() const;
+
+	UFUNCTION(BlueprintPure)
+	float TransformedCos() const;
+
+	template <typename T>
+	static T Avg(T First, T Second);
+private:
+	UPROPERTY(VisibleAnywhere)
+	float RunningTime;
+
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* ItemMesh;
 };
+
+template <typename T>
+inline T AItem::  Avg(T First, T Second)
+{
+	return (First + Second) / 2;
+}

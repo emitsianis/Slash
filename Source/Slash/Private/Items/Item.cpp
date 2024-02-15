@@ -5,25 +5,33 @@
 #include "Slash/DebugMacros.h"
 
 // Sets default values
-AItem::AItem()  
+AItem::AItem(): RunningTime(0)
 {
 	PrimaryActorTick.bCanEverTick = true;
+
+	ItemMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMeshComponent"));
+	RootComponent = ItemMesh;
 }
 
 // Called when the game starts or when spawned
 void AItem::BeginPlay()
 {
 	Super::BeginPlay();
+}
 
-	const FVector Forward = GetActorForwardVector();
-	const FVector StartLocation = GetActorLocation();
-	const FVector EndLocation = StartLocation + FVector(Forward.X * 100.0, Forward.Y * 100.0, Forward.Z * 100.0);
+float AItem::TransformedSine() const
+{
+	return Amplitude * FMath::Sin(RunningTime * TimeConstant);
+}
 
-	DRAW_SPHERE(StartLocation);
-	DRAW_VECTOR(StartLocation, EndLocation);
+float AItem::TransformedCos() const
+{
+	return Amplitude * FMath::Cos(RunningTime * TimeConstant);
 }
 
 void AItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	RunningTime += DeltaTime;
 }

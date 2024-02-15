@@ -9,10 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="45c56a64-a94b-4dfe-84e6-39bb67b033d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/DebugMacros.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/DebugMacros.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Items/Item.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Items/Item.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Items/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Items/Item.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Slash.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Slash.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/evagelosmitsianis/GameDev/Slash/Source/Slash/DebugMacros.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -136,13 +139,15 @@
       <workItem from="1707769534146" duration="5000" />
       <workItem from="1707769541829" duration="18000" />
       <workItem from="1707769570885" duration="5234000" />
-      <workItem from="1707846505137" duration="6210000" />
+      <workItem from="1707846505137" duration="6334000" />
+      <workItem from="1708020386114" duration="9444000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
