@@ -9,9 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="45c56a64-a94b-4dfe-84e6-39bb67b033d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/DebugMacros.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/DebugMacros.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Items/Item.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Items/Item.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Items/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Items/Item.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,10 @@
       <workItem from="1707769541829" duration="18000" />
       <workItem from="1707769570885" duration="5234000" />
       <workItem from="1707846505137" duration="6334000" />
-      <workItem from="1708020386114" duration="9444000" />
+      <workItem from="1708020386114" duration="9509000" />
+      <workItem from="1708362638051" duration="180000" />
+      <workItem from="1708362834820" duration="5041000" />
+      <workItem from="1708449339711" duration="7877000" />
     </task>
     <servers />
   </component>
