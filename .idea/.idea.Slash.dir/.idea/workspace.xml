@@ -9,9 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45c56a64-a94b-4dfe-84e6-39bb67b033d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Slash.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +141,9 @@
       <workItem from="1708362638051" duration="180000" />
       <workItem from="1708362834820" duration="5041000" />
       <workItem from="1708449339711" duration="7877000" />
+      <workItem from="1708521752993" duration="489000" />
+      <workItem from="1708539352829" duration="5234000" />
+      <workItem from="1708620600615" duration="2309000" />
     </task>
     <servers />
   </component>
