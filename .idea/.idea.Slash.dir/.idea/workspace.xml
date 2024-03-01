@@ -9,6 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="45c56a64-a94b-4dfe-84e6-39bb67b033d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slash.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashAnimInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Private/Characters/SlashCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashAnimInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Slash/Public/Characters/SlashCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +150,8 @@
       <workItem from="1708620600615" duration="2309000" />
       <workItem from="1709054835902" duration="125000" />
       <workItem from="1709055000232" duration="3707000" />
+      <workItem from="1709311467820" duration="26000" />
+      <workItem from="1709311504179" duration="4635000" />
     </task>
     <servers />
   </component>
