@@ -3,10 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CharacterTypes.h"
 #include "InputActionValue.h"
 #include "GameFramework/Character.h"
 #include "SlashCharacter.generated.h"
 
+class AItem;
 class UCameraComponent;
 class USpringArmComponent;
 class UInputAction;
@@ -27,6 +29,8 @@ public:
 	virtual void Jump() override;
 
 protected:
+	ECharacterState CharacterState = ECharacterState::ECS_Unequipped;
+
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, Category=Input)
@@ -37,12 +41,16 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category=Input)
 	UInputAction* LookAction;
-	
+
 	UPROPERTY(EditAnywhere, Category=Input)
-	UInputAction* JumpAction; 
+	UInputAction* JumpAction;
+
+	UPROPERTY(EditAnywhere, Category=Input)
+	UInputAction* EKeyAction;
 
 	void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
+	void EKeyPressed();
 
 private:
 	UPROPERTY(VisibleAnywhere)
@@ -50,4 +58,11 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	UCameraComponent* ViewCamera;
+
+	UPROPERTY(VisibleInstanceOnly)
+	AItem* OverlappingItem;
+
+public:
+	FORCEINLINE void SetOverlappingItem(AItem* Item) { OverlappingItem = Item; };
+	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; };
 };
